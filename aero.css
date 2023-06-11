@@ -79,6 +79,12 @@ body {
 .button.link {
   background: transparent;
   padding: 0;
+  padding: .3em .5em;
+}
+
+.button.link:focus {
+  border: 1px #fff solid;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .button.link:hover {
