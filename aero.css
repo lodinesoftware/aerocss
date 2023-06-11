@@ -78,6 +78,7 @@ body {
 
 .button.link {
   background: transparent;
+  padding: 0;
 }
 
 .button.link:hover {
