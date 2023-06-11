@@ -7,7 +7,7 @@ AeroCSS is a simple CSS framework that we using in our projects
 Feel free to contribute!
 
 ## Usage
-jsDelivr (Updates in 5-10 minutes after commit in main branch)
+jsDelivr (Updates in 12 hours after commit in main branch)
 ```
 https://cdn.jsdelivr.net/gh/LodineSoftware/aerocss@main/aero.min.css
 ```
