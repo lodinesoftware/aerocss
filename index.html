@@ -1,51 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AeroCSS Preview</title>
-  <link rel="stylesheet" href="aero.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AeroCSS Preview</title>
+    <link rel="stylesheet" href="aero.css" />
 
-  <style>
-    body {
-      margin: 0 1em;
-    }
-  </style>
-</head>
-  <h1>AeroCSS</h1>
-  <button class="button">Button</button>
-  <button class="button primary">Primary</button>
-  <button class="button outlined">Outlined</button>
-  <button class="button ghost">Ghost</button>
-  <button class="button link">Link</button>
-  <select class="select">
-    <option value="">Windows</option>
-    <option value="">MacOS</option>
-    <option value="">Linux</option>
-    <option value="">Android</option>
-    <option value="">WebOS</option>
-  </select>
-  <input type="text" class="input">
-  <br>
-  <br>
-  <div class="card">
-    <h1 class="title">Card</h1>
-    <h2 class="subtitle">This is a card</h2>
-  </div>
-  <h1 class="title">Title</h1>
-  <h2 class="subtitle">Subtitle</h2>
-  <section class="section">
-    <h1 class="title">Section</h1>
-    <h2 class="subtitle">Normal</h2>
-  </section>
-  <section class="section medium">
-    <h1 class="title">Section</h1>
-    <h2 class="subtitle">Medium</h2>
-  </section>
-  <section class="section large">
-    <h1 class="title">Section</h1>
-    <h2 class="subtitle">Large</h2>
-  </section>
-</body>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      main {
+        margin: 0 1em 3em 1em;
+      }
+
+      footer {
+        text-align: center;
+        background: hsl(0, 0%, 10%);
+        padding: 0 1em;
+        user-select: none;
+        color: hsl(0, 0%, 60%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="title">AeroCSS</h1>
+      <h2 class="subtitle">CSS framework by Lodine</h2>
+      <button class="button">Button</button>
+      <button class="button primary">Primary</button>
+      <button class="button outlined">Outlined</button>
+      <button class="button ghost">Ghost</button>
+      <button class="button link">Link</button>
+      <select class="select">
+        <option value="">Windows</option>
+        <option value="">MacOS</option>
+        <option value="">Linux</option>
+        <option value="">Android</option>
+        <option value="">WebOS</option>
+      </select>
+      <input type="text" class="input" />
+      <hr />
+      <h1>Card</h1>
+      <div class="card">
+        <h1 class="title">Card</h1>
+        <h2 class="subtitle">This is a card</h2>
+      </div>
+      <hr />
+      <h1>Title & Subtitle</h1>
+      <h1 class="title">Title</h1>
+      <h2 class="subtitle">Subtitle</h2>
+      <hr />
+      <h1>Sections</h1>
+      <section class="section">
+        <h1 class="title">Section</h1>
+        <h2 class="subtitle">Normal</h2>
+      </section>
+      <section class="section medium">
+        <h1 class="title">Section</h1>
+        <h2 class="subtitle">Medium</h2>
+      </section>
+      <section class="section large">
+        <h1 class="title">Section</h1>
+        <h2 class="subtitle">Large</h2>
+      </section>
+      <hr />
+      <h1>Hyperlink</h1>
+      I love <a href="#" class="hyperlink">https://google.com/</a>!
+      <br>
+      Really? I love <a href="#" class="hyperlink">https://microsoft.com/</a>!
+    </main>
+    <footer>
+      <p>© Lodine 2023</p>
+    </footer>
+  </body>
 </html>
