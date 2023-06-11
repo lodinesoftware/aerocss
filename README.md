@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/LodineSoftware/aerocss/assets/43351072/7d02ef22-e910-41f6-8046-bb12e20b524e">
+<img src="https://github.com/LodineSoftware/aerocss/assets/43351072/a853b663-109d-4b4b-953e-f66bd548d381">
 </p>
 
 # About
