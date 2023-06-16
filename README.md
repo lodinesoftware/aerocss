@@ -1,6 +1,9 @@
 <p align="center">
-<img src="https://github.com/LodineSoftware/aerocss/assets/43351072/a853b663-109d-4b4b-953e-f66bd548d381">
+
+<img src="https://github.com/LodineSoftware/aerocss/assets/43351072/cf0f09d1-586d-4815-b1d3-7c78e85d0b8b">
+
 </p>
+
 
 # About
 AeroCSS is a simple CSS framework that we using in our projects
