@@ -18,10 +18,6 @@
   -moz-box-sizing: border-box;
 }
 
-.button:focus, .input:focus, .select:focus {
-  outline: .18em dotted var(--light);
-}
-
 /* ******************* */
 /*       Bread         */
 /* ******************* */
@@ -42,13 +38,17 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-size: 1em;
   gap: .5em;
   background: hsl(0, 0%, 10%);
   color: hsl(0, 0%, 95%);
   border: 1px solid transparent;
+  border-radius: .2em;
   cursor: pointer;
   padding: .5em 1em;
+  outline-color: #fff;
   text-decoration: none;
+  transition: 200ms;
 }
 
 .button:focus {
@@ -63,10 +63,6 @@ body {
   background: var(--primary);
 }
 
-.button.primary:focus {
-  outline-color: #fff;
-}
-
 .button.outlined {
   border: 1px var(--primary) solid;
   background: transparent;
@@ -76,12 +72,17 @@ body {
   background: transparent;
 }
 
+.button.ghost:hover {
+  background: hsl(0, 0%, 10%);
+  opacity: 1;
+}
+
 .button.link {
   background: transparent;
   padding: 0;
   border: 1px transparent solid;
   outline: none;
-}
+}       
 
 .button.link:focus {
   border-color: #fff;
@@ -105,9 +106,8 @@ body {
   text-decoration: none;
 }
 
-.hyperlink:focus {
-  border-color: #fff;
-  background: rgba(255, 255, 255, 0.1);
+.hyperlink:hover {
+  text-decoration: underline;
 }
 
 /* ******************* */
@@ -128,7 +128,10 @@ hr {
   color: hsl(0, 0%, 97%);
   border: 1px hsl(0, 0%, 10%) solid;
   padding: .5em 1em;
+  font-size: 1em;
+  border-radius: .2em;
   cursor: pointer;
+  outline-color: #fff;
 }
 
 .input {
@@ -136,6 +139,9 @@ hr {
   color: hsl(0, 0%, 97%);
   border: 1px hsl(0, 0%, 10%) solid;
   padding: .5em 1em;
+  font-size: 1em;
+  border-radius: .2em;
+  outline-color: #fff;
 }
 
 /* ******************* */
@@ -145,6 +151,10 @@ hr {
 .card {
   padding: 1em;
   border: 1px hsl(0, 0%, 10%) solid;
+}
+
+.card .title {
+  margin-top: 0;
 }
 
 /* ******************* */
