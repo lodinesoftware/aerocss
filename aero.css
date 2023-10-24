@@ -153,6 +153,7 @@ hr {
 .card {
   padding: 1em;
   border: 1px hsl(0, 0%, 10%) solid;
+  border-radius: .2em;
 }
 
 .card .title {
