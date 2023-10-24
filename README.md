@@ -16,5 +16,5 @@ https://cdn.jsdelivr.net/gh/LodineSoftware/aerocss@main/aero.min.css
 ```
 Lodine CDN (Updates manually)
 ```
-[https://storage.lodine.xyz/aero.min.css](https://cdn.lodine.xyz/aero.min.css)https://cdn.lodine.xyz/aero.min.css
+https://cdn.lodine.xyz/aero.min.css
 ```
