@@ -14,7 +14,7 @@ jsDelivr (Updates in 12 hours after commit in main branch)
 ```
 https://cdn.jsdelivr.net/gh/LodineSoftware/aerocss@main/aero.min.css
 ```
-Lodine CDN (Updates when it really needs)
+Lodine CDN (Updates manually)
 ```
-https://storage.lodine.xyz/aero.min.css
+https://cdn.lodine.xyz/aero.min.css
 ```
